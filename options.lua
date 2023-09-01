@@ -2,11 +2,15 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
+    relativenumber = false, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    mouse = "", -- disable mouse
+    tabstop = 4, -- number of space in a tab
+    shiftwidth = 4, -- number of space inserted for indentation
+    showtabline = 4, -- always display tabline
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
